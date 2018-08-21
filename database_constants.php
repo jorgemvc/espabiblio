@@ -8,15 +8,16 @@
  *  ||  Please modify the following database connection variables to match  ||
  *  \/  the MySQL database and user that you have created for OpenBiblio.   \/
  *
- *  ||  Modifique los siguientes datos para la conecion a sus bases de datos  ||
- *  \/  Las bases de datos MySQL y el usario con privilegios para esas bases de datos deben ser crados antes de usar OpenBiblio.   \/
+ *  ||  Modifique los siguientes parametros de conexión a sus bases de datos  ||
+ *  ||  La base de datos MySQL y el usario con privilegios para esa base de   ||
+ *  \/  datos deben de haber sidos creados antes de usar OpenBiblio.          \/
  *********************************************************************************
  */
 error_reporting(0);
-define("OBIB_HOST",     "localhost");//el servidor Normalmente localhost
-define("OBIB_DATABASE", "espabiblio");// La base de datos donde guardan sus datos las tablas.
-define("OBIB_USERNAME", "espabiblio");// El usuario para mysql
-define("OBIB_PWD",      "espabiblio");//el password sin ecriptar
+define("OBIB_HOST",     "localhost");   // El servidor Normalmente localhost
+define("OBIB_DATABASE", "espabiblio");  // La base de datos donde se guardarán los datos.
+define("OBIB_USERNAME", "espabiblio");  // El usuario para MySQL
+define("OBIB_PWD",      "espabiblio");  // El password sin encriptar
 
 /*********************************************************************************
  *  /\                                                                      /\
